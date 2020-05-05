@@ -91,7 +91,7 @@ a:hover {
 }
 
 .texture-paper::before {
-    background: url("img/texture-paper.png");
+    background: url("img/texture-paper.webp");
     background-size: 280px 280px;
 }
 
@@ -133,7 +133,7 @@ a:hover {
 .d-bloc h5 a,
 .d-bloc h6 a,
 .d-bloc p a {
-    color: rgba(255, 255, 255, .6);
+    color:white;
 }
 
 .d-bloc .a-btn:hover,
@@ -362,46 +362,6 @@ a:hover {
     z-index: 2;
 }
 
-@media (min-width: 768px) {
-    .site-navigation {
-        position: absolute;
-        top: 50%;
-        right: 20px;
-        transform: translate(0, -50%);
-        -webkit-transform: translateY(-50%);
-    }
-    .nav > li .dropdown-menu a,
-    .nav > li .dropdown-menu a:hover {
-        color: #484848;
-    }
-    .nav-invert .site-navigation {
-        left: 0;
-        right: 0;
-    }
-    .nav-center {
-        text-align: center;
-    }
-    .nav-center .navbar-header {
-        width: 100%;
-    }
-    .nav-center .navbar-header,
-    .nav-center .navbar-brand,
-    .nav-center .nav > li {
-        float: none;
-        display: inline-block;
-    }
-    .nav-center .site-navigation {
-        position: relative;
-        width: 100%;
-        right: 0;
-        margin-right: 0px;
-        margin-top: 20px;
-    }
-    .nav-center.mini-nav .navbar-toggle {
-        float: none;
-        margin: 10px auto 0;
-    }
-}
 
 .nav > li > .dropdown a {
     background: none!important;
@@ -771,7 +731,7 @@ h4 {
 }
 
 .bgc-atomic-tangerine {
-    background-color: #F3976C;
+    background-color:#F3976C;
 }
 
 .tc-white {
@@ -779,7 +739,7 @@ h4 {
 }
 
 .btn-atomic-tangerine {
-    background: #F3976C;
+    background: #953D14;
     color: #FFFFFF!important;
 }
 
@@ -810,19 +770,19 @@ h4 {
 }
 
 .bg-dots-bg {
-    background-image: url("img/dots-bg.png");
+    background-image: url("img/dots-bg.webp");
 }
 
 .bg-lines-h2-bg {
-    background-image: url("img/lines-h2-bg.png");
+    background-image: url("img/lines-h2-bg.webp");
 }
 
 .bg-banniere {
-    background-image: url("img/la-chouette-agence-banniere.jpg");
+    background-image: url("img/la-chouette-agence-banniere.webp");
 }
 
 .bg-presentation {
-    background-image: url("img/image-de-presentation.bmp");
+    background-image: url("img/image-de-presentation.webp");
 }
 
 @media (max-width: 1024px) {
@@ -1038,5 +998,52 @@ h4 {
 @media (max-width: 767px) {
     .bloc-mob-center-text {
         text-align: center;
+    }
+    .img-responsive{
+        min-width: 100%;
+    }
+}
+
+@media (min-width: 768px) {
+    .site-navigation {
+        position: absolute;
+        top: 50%;
+        right: 20px;
+        transform: translate(0, -50%);
+        -webkit-transform: translateY(-50%);
+    }
+    .nav > li .dropdown-menu a,
+    .nav > li .dropdown-menu a:hover {
+        color: #484848;
+    }
+    .nav-invert .site-navigation {
+        left: 0;
+        right: 0;
+    }
+    .nav-center {
+        text-align: center;
+    }
+    .nav-center .navbar-header {
+        width: 100%;
+    }
+    .nav-center .navbar-header,
+    .nav-center .navbar-brand,
+    .nav-center .nav > li {
+        float: none;
+        display: inline-block;
+    }
+    .nav-center .site-navigation {
+        position: relative;
+        width: 100%;
+        right: 0;
+        margin-right: 0px;
+        margin-top: 20px;
+    }
+    .nav-center.mini-nav .navbar-toggle {
+        float: none;
+        margin: 10px auto 0;
+    }
+    .img-responsive{
+        min-width: 100%;
     }
 }
