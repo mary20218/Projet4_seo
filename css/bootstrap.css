@@ -2304,7 +2304,7 @@ pre code {
         float: left
     }
     .col-sm-12 {
-        width: 50%
+        width: 100%
     }
     .col-sm-11 {
         width: 91.66666667%
@@ -2322,9 +2322,7 @@ pre code {
         width: 58.33333333%
     }
     .col-sm-6 {
-        width: 50%;
-        margin:auto;
-        
+        width: 50%
     }
     .col-sm-5 {
         width: 41.66666667%
@@ -7686,8 +7684,8 @@ button.close {
     cursor: pointer;
     background-color: #0009;
     background-color: rgba(0, 0, 0, 0);
-    border: 1px solid #fff;
-    border-radius: 10px
+    border: 1px solid #ffffff;
+    border-radius: 10px;
 }
 
 .carousel-indicators .active {
@@ -7882,7 +7880,6 @@ button.close {
     .visible-xs-block {
         display: block !important
     }
-    
 }
 
 @media (max-width:767px) {
