@@ -1,0 +1,8 @@
+User-Agent: *
+Allow: /
+# fichier pour les robots du site http://https://mary20218.github.io/Projet4_seo/
+
+User-Agent: * 
+Allow: /*.css?* 
+Sitemap:http://www.sitemaps.org/schemas/sitemap/0.9
+
