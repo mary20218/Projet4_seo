@@ -45,13 +45,13 @@
 					</div>
 					<div class="collapse navbar-collapse navbar-1 special-dropdown-nav">
 						<ul class="site-navigation nav navbar-nav">
-							<li>
+							<li title="Accueil">
 								<a href="index.html">Accueil</a>
 							</li>
 							<li>
 							</li>
-							<li>
-								<a href="contacts.html">contacts &gt;</a>
+							<li title="Formulaire de contact">
+								<a href="contacts.html">contacts </a>
 							</li>
 						</ul>
 					</div>
@@ -86,22 +86,22 @@
 						<form id="form_1" novalidate success-msg="Your message has been sent."
 							fail-msg="Sorry it seems that our mail server is not responding, Sorry for the inconvenience!">
 							<div class="form-group">
-								<label>
+								<label for="name">
 									Nom
 								</label>
-								<input id="name" class="form-control" required />
+								<input type="name " id="name" class="form-control" required  title="nom"/>
 							</div>
 							<div class="form-group">
-								<label>
+								<label for="email" >
 									Adresse email
 								</label>
-								<input id="email" class="form-control" type="email" required />
+								<input type="email"  id="email" class="form-control" required title="email" />
 							</div>
 							<div class="form-group">
 								<label>
 									Comment nous avez-vous connu ?
 								</label>
-								<input class="form-control" type="email" required id="input_504" />
+								<input class="form-control" type="text" required id="input_504" />
 							</div>
 							<div class="form-group">
 								<label>
@@ -110,7 +110,7 @@
 									required></textarea>
 							</div>
 							<button class="bloc-button btn btn-lg btn-block cta-hero btn-atomic-tangerine"
-								type="submit">
+								type="submit" title="bouton envoyer">
 								Envoyer
 							</button>
 						</form>
